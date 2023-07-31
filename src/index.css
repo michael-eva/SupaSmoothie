@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;800&family=VT323&display=swap');
+
+:root {
+  --primary: #12bca2;
+  --secondary: #6d15df;
+}
+
+
+
+h1,
+h2,
+h3 {
+  margin: 0;
+}
+
+body {
+  margin: 0;
+  color: #333;
+  font-family: 'Poppins';
+  background: #f2f2f2;
+}
+
+nav {
+  background: var(--primary);
+  padding: 10px 20px;
+  text-align: center;
+}
+
+nav a {
+  color: #f2f2f2;
+  margin: 10px;
+  display: inline-block;
+}
+
+nav h1 {
+  color: #fff;
+}
+
+.page {
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 20px;
+}
+
+/* smoothie grid */
+.full-method-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.smoothie-grid {
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 40px;
+}
+
+.smoothie-card {
+  width: 100%;
+  padding: 10px;
+  background: #fff;
+  box-sizing: border-box;
+  border-radius: 6px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.smoothie-card .rating {
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  background: var(--secondary);
+  color: #fff;
+  border-radius: 6px;
+  width: 40px;
+  height: 0;
+  padding: 20px 0;
+  line-height: 0px;
+  text-align: center;
+}
+
+.smoothie-card .button {
+  width: 30%;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.smoothie-card i {
+  color: #bbb;
+  margin-left: 10px;
+  font-size: 1.2em;
+  padding: 6px;
+  background: #eee;
+  border-radius: 50%;
+  cursor: pointer;
+  /* display: flex; */
+}
+
+
+ul {
+  list-style: none;
+}
+
+ul li:before {
+  content: "\2022";
+  color: var(--secondary);
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+
+.full-method-link {
+  all: unset;
+}
+
+h5 {
+  margin: 0;
+  font-weight: 600;
+  color: #6d15df;
+}
+
+.view-menu-btn {
+  border: 1px solid var(--secondary);
+  font-size: x-small;
+  padding: 5px;
+  min-width: 90px;
+  cursor: pointer;
+  border-radius: 6px;
+}
+
+.view-menu-btn:hover {
+  background-color: var(--secondary);
+  color: #fff;
+}
+
+/* forms */
+form {
+  background: #fff;
+  padding: 20px;
+  max-width: 480px;
+  margin: 0 auto;
+  border-radius: 6px;
+}
+
+form input,
+form textarea {
+  display: block;
+  width: 100%;
+  padding: 6px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  margin: 10px 0 20px 0;
+}
+
+form button {
+  background: var(--primary);
+  color: #fff;
+  border: 0;
+  border-radius: 6px;
+  padding: 6px 8px;
+  font-family: "Poppins";
+  cursor: pointer;
+
+}
+
+.order-by .button {
+  margin-right: 10px;
+  background-color: var(--primary);
+  color: #fff;
+  border: 0;
+  padding: 4px 8px;
+  font-family: "Poppins";
+  cursor: pointer;
+  border-radius: 6px;
+}
+
+.order-by .focus {
+  margin-right: 10px;
+  background-color: var(--secondary);
+  color: #fff;
+  border: 0;
+  padding: 4px 8px;
+  font-family: "Poppins";
+  cursor: pointer;
+  border-radius: 6px;
+}
+
+.testing {
+  color: black;
+}
+
+/* Large Card */
+.individual-smoothie {
+  /* border: 1px solid black; */
+  height: 100%;
+  width: 500px;
+  margin: auto;
+  margin-top: 50px;
+  padding: 20px;
+  background: #fff;
+  border-radius: 6px;
+}
+
+.smoothie-header {
+  font-size: 2rem;
+  text-align: center;
+}
+
+.individual-smoothie h3 {
+  font-size: 1rem;
+  margin-top: 40px;
+}
+
+.individual-smoothie h5 {
+  font-size: 1rem;
+}
+
+.smoothie-instructions {
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
